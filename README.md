@@ -9,3 +9,8 @@ You might find more information on my blog-site http://www.trausti.com
 Enjoy!
 
 Stefan Trausti Arnason
+
+---
+
+## Lecture List
+*BT01 Intro, Notes & Assets
