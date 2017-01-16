@@ -1,4 +1,7 @@
 *.VC.db
+*.png
+Content/StarterContent/**
+HM_Landscape.umap
 
 # Visual Studio 2015 user specific files
 .vs/
