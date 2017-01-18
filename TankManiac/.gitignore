@@ -1,5 +1,12 @@
 *.VC.db
 *.png
+*.zip
+*.umap
+*.ttf
+*.png
+*.jpg
+*.fbx
+Imported assets/**
 Content/StarterContent/**
 HM_Landscape.umap
 
