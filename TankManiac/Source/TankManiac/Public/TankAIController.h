@@ -20,4 +20,7 @@ private:
 
 	virtual void Tick(float DeltaSeconds) override;
 
+	// At what radius will the AI stop moving towards the player (in cm?)
+	float AcceptanceRadius = 3000;
+
 };
