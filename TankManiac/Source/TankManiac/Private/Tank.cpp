@@ -21,6 +21,9 @@ ATank::ATank()
 void ATank::BeginPlay()
 {
 	Super::BeginPlay(); // Needed for BP Begin Play to run in UE4.12! (seams to work fine without super in UE4.14)
+
+	auto TankName = GetName();
+	UE_LOG(LogTemp, Warning, TEXT("%s TRAUSTI: Tank C++ Begin Play"), *TankName)
 }
 
 void ATank::AimAt(FVector HitLocation)

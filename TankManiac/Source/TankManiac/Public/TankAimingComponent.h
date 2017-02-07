@@ -32,7 +32,7 @@ public:
 
 protected:
 	UPROPERTY(BlueprintReadOnly, Category = "State")
-	EFiringState FiringState = EFiringState::Aiming;
+	EFiringState FiringState = EFiringState::Locked; // This will make the chrosshair start as green. Alternative set this to Aiming
 
 private:
 	// Sets default values for this component's properties
