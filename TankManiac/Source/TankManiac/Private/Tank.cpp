@@ -12,17 +12,12 @@ ATank::ATank()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
-
-	auto TankName = GetName();
-	UE_LOG(LogTemp, Warning, TEXT("%s TRAUSTI: Tank C++ Construct"), *TankName)
 }
 
 void ATank::BeginPlay()
 {
 	Super::BeginPlay(); // Needed for BP Begin Play to run in UE4.12! (seams to work fine without super in UE4.14)
-
-	auto TankName = GetName();
-	UE_LOG(LogTemp, Warning, TEXT("%s TRAUSTI: Tank C++ Begin Play"), *TankName)
+	TankAimingComponent = FindComponentByClass<UTankAimingComponent>();
 }
 
 void ATank::AimAt(FVector HitLocation)
