@@ -1,4 +1,6 @@
 *.VC.db
+BT86-mortar-placeholder.zip
+StarterContent.zip
 *.png
 *.zip
 *.umap
@@ -7,7 +9,6 @@
 *.jpg
 *.fbx
 Imported assets/**
-Content/StarterContent/**
 HM_Landscape.umap
 
 # Visual Studio 2015 user specific files
